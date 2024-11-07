@@ -1,0 +1,48 @@
+@media screen and (max-width: 1000px) {
+  
+  .home-section {
+    height: 850px;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .home-title {
+    width: 100%;
+    text-align: center;
+    font-size: clamp(30px, 5vw, 100px);
+  }
+
+  .img-container {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  
+  .home-section {
+    height: 650px;
+  }
+
+  .about-img {
+    width: 350px;
+  }
+  
+  .contact-phone-container {
+    display: block;
+  }
+  
+  .contact-email-container {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .about-img {
+    width: 280px;
+  }
+  
+}
