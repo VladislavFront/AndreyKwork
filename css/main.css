@@ -176,8 +176,8 @@ body {
 }
 
 .reviews-card {
-  width: 700px;
-  height: 350px;
+  width: 1200px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -186,6 +186,10 @@ body {
   margin: 10px;
   border: 5px solid var(--accentColor);
   border-radius: 10px;
+}
+
+.user-name {
+  margin-bottom: 25px;
 }
 
 .free-container {
