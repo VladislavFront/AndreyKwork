@@ -19,6 +19,30 @@
 
 }
 
+@media screen and (max-width: 900px) {
+
+  input, textarea {
+    width: 650px;
+  }
+
+  .contactFormSubmit {
+    width: 650px;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+
+  input, textarea {
+    width: 450px;
+  }
+
+  .contactFormSubmit {
+    width: 450px;
+  }
+
+}
+
 @media screen and (max-width: 600px) {
   
   .home-section {
@@ -35,6 +59,23 @@
   
   .contact-email-container {
     display: block;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  input, textarea {
+    width: 300px;
+    height: 60px;
+  }
+
+  textarea {
+    height: 250px;
+  }
+
+  .contactFormSubmit {
+    width: 300px;
   }
 
 }
