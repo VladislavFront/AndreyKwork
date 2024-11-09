@@ -215,20 +215,23 @@ body {
   margin: 10px;
 }
 
-
-/* .contact-title {
+.contact-title {
   margin-right: 20px;
 }
 
 .contact-phone-container {
+  width: 100%;
+  text-align: center;
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
-.contact-email-container {
+/* .contact-email-container {
   display: flex;
   align-items: center;
-}
+} */
     
 .contact-phone {
   text-decoration: none;
@@ -238,11 +241,12 @@ body {
 .contact-email {
   text-decoration: none;
   color: var(--accentColor);
-} */
+}
 
 .contact-container {
-  font-size: clamp(20px, 2.5vw, 60px);
+  font-size: clamp(20px, 5vw, 60px);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
