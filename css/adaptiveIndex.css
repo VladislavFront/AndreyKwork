@@ -41,6 +41,14 @@
     width: 450px;
   }
 
+  .whatsapp-img {
+    width: 50px;
+  }
+  
+  .telegram-img {
+    width: 50px;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
