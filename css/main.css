@@ -235,6 +235,33 @@ body {
 
 .social-container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 25px;
+  /* border: 3px solid red; */
+}
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--accentColor);
+}
+
+.whatsapp-img {
+  margin-right: 25px;
+}
+
+.telegram {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--accentColor);
+}
+
+.telegram-img {
+  margin-right: 25px;
 }
 
 .contact-container {
