@@ -223,6 +223,7 @@ body {
   width: 100%;
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
@@ -237,11 +238,15 @@ body {
   text-decoration: none;
   color: var(--accentColor);
 }
-      
-.contact-email {
+
+.social-container {
+  display: flex;
+}
+
+/* .contact-email {
   text-decoration: none;
   color: var(--accentColor);
-}
+} */
 
 .contact-container {
   font-size: clamp(20px, 5vw, 60px);
