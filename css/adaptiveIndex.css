@@ -49,9 +49,14 @@
     width: 50px;
   }
 
+  .youtube-img {
+    width: 50px;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
+  
 
   .about-img {
     width: 350px;
