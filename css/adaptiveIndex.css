@@ -1,15 +1,15 @@
 @media screen and (max-width: 1000px) {
   
   .home-section {
-    height: 850px;
+    height: auto;
     flex-direction: column-reverse;
     justify-content: center;
+    margin-bottom: 100px;
   }
 
-  .home-title {
+  .home-title-container {
     width: 100%;
     text-align: center;
-    font-size: clamp(30px, 5vw, 100px);
   }
 
   .img-container {
@@ -52,10 +52,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  
-  .home-section {
-    height: 650px;
-  }
 
   .about-img {
     width: 350px;
@@ -64,6 +60,11 @@
 }
 
 @media screen and (max-width: 500px) {
+
+  .video {
+    width: 70vw;
+    height: auto;
+  }
 
   input, textarea {
     width: 300px;
