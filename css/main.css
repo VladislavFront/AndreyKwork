@@ -281,6 +281,17 @@ body {
   margin-right: 25px;
 }
 
+.youtube {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--accentColor);
+}
+
+.youtube-img {
+  margin-right: 25px;
+}
+
 .contact-container {
   font-size: clamp(20px, 5vw, 60px);
   display: flex;
